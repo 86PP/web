@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+body {
+    background-image: url('back.gif'); /* Remplacez 'votre_gif.gif' par le chemin de votre GIF */
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Hide scrollbars */
+    user-select: none;
+    user-zoom: none;
+}
+
+* {
+    cursor: url('https://tobiasahlin.com/static/cursors/default.png'), auto;
+  }
+
+#overlay {
+    display: table-cell;
+    height: 100%;
+    width: 100%;
+    position: fixed; /* Stay in place */
+    background-color: #080808af; /* Black fallback color */
+    backdrop-filter: blur(16px);
+    transition: opacity 1500ms;
+    margin: 0;
+    padding: 0;
+    font-size: 2em;
+    z-index: 10;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#entertext {
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    font-family: 'Quicksand';
+    margin: 0;
+    padding: 0;
+    filter: drop-shadow(10px 10px 30px #FF2DEA) drop-shadow(-10px -10px 30px #2DD9FF);
+}
+
+.hidden {
+    opacity: 0;
+}
+
+.logo {
+    position: absolute;
+    transform: translate(-50%,-50%);
+    fill: rgb(255, 255, 255);
+    display: flex;
+    height: 64px;
+    top: 50%;
+    left: 50%;
+    gap: 20px;
+    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.8));
+    aspect-ratio: 1/1;
+}
+
+a {
+    width: 64px;
+    height: 64px;
+}
+
+.discord:hover{
+    scale: 1.1;
+    fill: #5865F2;
+    filter: drop-shadow(0 0 30px #5865f28a);
+}
+.bitcoin:hover {
+    scale: 1.1;
+    fill: #F7931A;
+    filter: drop-shadow(0 0 30px #f7941a7a);
+}
+.telegram:hover {
+    scale: 1.1;
+    fill: #26A5E4;
+    filter: drop-shadow(0 0 30px #26a5e47a);
+}
+.litecoin:hover {
+    scale: 1.1;
+    fill: #A6A9AA;
+    filter: drop-shadow(0 0 30px #a6a9aa8a);
+}
+.namemc:hover {
+    scale: 1.1;
+    fill: #ff78e2;
+    filter: drop-shadow(0 0 30px #ff78e28a);
+}
