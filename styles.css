@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
 body {
-    background-image: url('back.gif'); /* Remplacez 'votre_gif.gif' par le chemin de votre GIF */
-    background-size: cover;
+  /*  background-image: url('back.gif'); /* Remplacez 'votre_gif.gif' par le chemin de votre GIF */
+   /* background-size: cover;
     background-repeat: no-repeat;
     margin: 0;
-    padding: 0;
+    padding: 0; */
     overflow: hidden; /* Hide scrollbars */
     user-select: none;
     user-zoom: none;
+    background-color :#000000;
 }
 
 * {
